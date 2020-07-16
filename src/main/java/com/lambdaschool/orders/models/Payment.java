@@ -45,6 +45,14 @@ public class Payment {
         this.orders = orders;
     }
 
+    public long getPaymentid() {
+        return paymentid;
+    }
+
+    public void setPaymentid(long paymentid) {
+        this.paymentid = paymentid;
+    }
+
     @Override
     public String toString() {
         return "Payment{" +

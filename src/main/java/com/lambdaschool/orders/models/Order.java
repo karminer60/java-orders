@@ -91,6 +91,15 @@ public class Order {
         this.payments.add(payment);
     }
 
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
+
     @Override
     public String toString() {
         return "Order{" +
